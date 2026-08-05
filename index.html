@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Maryane Praxedes">
+
+    <meta name="description" content="Portfólio Pessoal da Maryane Praxedes, 
+                    desenvolvedora Full Stack especializada em criar experiências 
+                    digitais incríveis. Conheça meus projetos e entre em contato.">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg">
+
+    <title>Portfólio da Maryane</title>
+</head>
+
+<body>
+
+    <!--- Cabeçalho da Página -->
+    <header>
+        <div class="menu-content">
+            <!-- Título do cabeçalho -->
+            <a href="index.html" id="titulo">Portfólio</a>
+
+            <!-- Menu de Navegação -->
+            <nav>
+                <ul class="menu-list">
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contatos</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--- Conteúdo Principal da Página -->
+    <main>
+
+        <!-- Seção Hero -->
+        <section id="hero" class="section-container hero-container">
+
+            <!-- Boas Vindas-->
+            <article>
+                <span>👋🏻 Olá, eu sou a Maryane!</span>
+                <h1>Desenvolvedora Full Stack</h1>
+                <p>Com grandes códigos, vem grandes responsabilidades!</p>
+
+                <div class="buttons-container">
+                    <a href="#contact" class="botao">Entre em Contato</a>
+                    <a href="#about" class="botao-outline">Saiba mais...</a>
+                </div>
+            </article>
+
+            <!-- Imagem da Seção Hero -->
+            <figure class="hero-image">
+                <img src="./assets/img/foto_dev_woman.svg" width="300" alt="Foto do autor do site"
+                    class="float-animation">
+            </figure>
+
+        </section>
+
+        <!-- Seção Sobre Mim -->
+        <section id="about" class="section-container about-container">
+
+            <!-- Imagem da Seção Sobre Mim -->
+            <figure class="about-image">
+                <img src="./assets/img/avatar_dev_woman.svg" width="300" alt="Foto - Perfil do autor do site">
+
+
+                <!-- Conteúdo da Seção Sobre Mim -->
+                <article class="about-content">
+                    <h2>Sobre Mim</h2>
+                    <p>Sou uma desenvolvedora Full Stack apaixonada por criar experiências digitais incríveis. Com
+                        habilidades em diversas tecnologias, estou sempre em busca de novos desafios e oportunidades
+                        para aprimorar minhas habilidades.</p>
+                    <p>Se você está procurando alguém para transformar suas ideias em realidade, entre em contato
+                        comigo!</p>
+
+                    <!-- Links (GitHub + Currículo) e Dados do GitHub-->
+                    <div class="about-buttons-data">
+
+                        <!-- Links-->
+                        <div class="buttons-container">
+                            <a href="https://github.com/marypraxedes" target="_blank" class="botao">GitHub</a>
+                            <a href="./Currículo Novo - Maryane Praxedes.pdf" target="_blank"
+                                class="botao-outline">Currículo</a>
+                        </div>
+
+                        <!-- Dados do Repositório GitHub -->
+                        <div class="data-container">
+                            <!-- Número de Seguidores -->
+                            <div class="data-item">
+                                <span class="data-number">100</span>
+                                <span class="data-label">Seguidores</span>
+
+                            </div>
+                            <!-- Número de Repositórios -->
+                            <div class="data-item">
+                                <span class="data-number">10</span>
+                                <span class="data-label">Repositórios</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </figure>
+        </section>
+
+        <!-- Seção Projetos -->
+        <section id="projects" class="section-container projects-container">
+
+            <h2>Meus Projetos</h2>
+
+            <!-- Swiper Container -->
+            <div class="swiper projects-swiper">
+                <div class="swiper-wrapper">
+
+                    <figure class="swiper-slide">
+
+                        <article class="project-card">
+
+                            <!-- Ícone da Tecnologia padrão do projeto -->
+                            <figure class="project-image">
+                                <img src="./assets/icons/languages/github.svg" alt="Ícone do GitHub" width="100">
+                            </figure>
+
+                            <!-- Conteúdo do Projeto -->
+                            <div class="project-content">
+
+                                <h3>Projeto GitHub</h3>
+                                <p>Projeto desenvolvido no GitHub</p>
+
+                                <!-- Tags do Projeto -->
+                                <div class="project-tags">
+                                    <span class="tag">GitHub</span>
+                                </div>
+
+                                <!-- Links do Projeto -->
+                                <div class="project-buttons">
+                                    <a href="#" target="_blank" class="botao botao-sm">
+                                        GitHub
+                                    </a>
+                                    <a href="#" target="_blank" class="botao-outline botao-sm">
+                                        Deploy
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                </div>
+
+            </div>
+
+            <!-- Botões de Navegação -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+            <!-- Paginação -->
+            <div class="swiper-pagination"></div>
+
+            </div>
+
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contact" class="section-container contact-container">
+
+            <!-- Redes Sociais-->
+            <article class="contact-info">
+                <h2>Entre em contato</h2>
+                <p>Sinta-se à vontade para entrar em contato comigo.</p>
+
+                <!-- Links das Redes Sociais -->
+                <div class="social-container">
+
+                    <a href="https://www.linkedin.com/in/marypraxedes/" target="_blank" class="social-icon"
+                        aria-label="LinkedIn">
+                        <img src="./assets/icons/social/linkedin.svg" alt="Link para o LinkedIn">
+                    </a>
+
+                    <a href="https://github.com/marypraxedes" target="_blank" class="social-icon" aria-label="GitHub">
+                        <img src="./assets/icons/social/github.svg" alt="Link para o GitHub">
+                    </a>
+
+                    <a href="https://instagram.com/mary_praxedes" target="_blank" class="social-icon"
+                        aria-label="Instagram">
+                        <img src="./assets/icons/social/instagram.svg" alt="Link para o Instagram">
+                    </a>
+                </div>
+            </article>
+
+            <h2>Entre em Contato</h2>
+
+            <!-- Formulário de Contato -->
+            <form id="formulario">
+
+                <label for="nome">Nome:</label>
+                <input id="nome" name="nome" type="text" placeholder="Digite seu nome completo">
+                <span id="erro-nome"></span>
+
+
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="text" placeholder="Digite seu email">
+                <span id="erro-email"></span>
+
+                <label for="assunto">Assunto:</label>
+                <input id="assunto" name="assunto" type="text" placeholder="Digite o assunto da sua mensagem">
+                <span id="erro-assunto"></span>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem aqui..."></textarea>
+                <span id="erro-mensagem"></span>
+
+                <button class="botao" type="submit">Enviar Mensagem</button>
+
+            </form>
+
+        </section>
+
+
+    </main>
+
+    <!--- Rodapé da Página -->
+    <footer>
+        Desenvolvido por Maryane Praxedes - 2026
+    </footer>
+
+
+</body>
+
+</html>

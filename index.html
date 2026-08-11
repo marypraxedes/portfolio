@@ -23,6 +23,9 @@
 
     <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg">
 
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
     <!-- CSS principal da página -->
     <link rel="stylesheet" href="./assets/css/styles.css">
 
@@ -78,60 +81,7 @@
         <!-- Seção Sobre Mim -->
         <section id="about" class="section-container about-container">
 
-            <!-- Imagem da Seção Sobre Mim -->
-            <figure class="about-image">
-                <img src="./menina de costas.png" alt="Foto - Perfil do autor do site">
-            </figure>
 
-            <!-- Conteúdo da Seção Sobre Mim -->
-            <article class="about-content">
-
-                <h2>Sobre Mim</h2>
-
-                <p>
-                    Sou uma desenvolvedora Full Stack apaixonada por criar experiências digitais incríveis.
-                    Com habilidades em diversas tecnologias, estou sempre em busca de novos desafios e
-                    oportunidades para aprimorar minhas habilidades.
-                </p>
-
-                <p>
-                    Se você está procurando alguém para transformar suas ideias em realidade,
-                    entre em contato comigo!
-                </p>
-
-                <!-- Links (GitHub + Currículo) e Dados do GitHub -->
-                <div class="about-buttons-data">
-
-                    <!-- Links -->
-                    <div class="buttons-container">
-                        <a href="https://github.com/marypraxedes" target="_blank" class="botao">
-                            GitHub
-                        </a>
-
-                        <a href="./Currículo Novo - Maryane Praxedes.pdf" target="_blank" class="botao-outline">
-                            Currículo
-                        </a>
-                    </div>
-
-                    <!-- Dados do Repositório GitHub -->
-                    <div class="data-container">
-
-                        <!-- Número de Seguidores -->
-                        <div class="data-item">
-                            <span class="data-number">15</span>
-                            <span class="data-label">Seguidores</span>
-                        </div>
-
-                        <!-- Número de Repositórios -->
-                        <div class="data-item">
-                            <span class="data-number">22</span>
-                            <span class="data-label">Repositórios</span>
-                        </div>
-
-                    </div>
-                </div>
-
-            </article>
 
         </section>
 
@@ -143,42 +93,6 @@
             <!-- Swiper Container -->
             <div class="swiper projects-swiper">
                 <div class="swiper-wrapper">
-
-                    <div class="swiper-slide">
-
-                        <article class="project-card">
-
-                            <!-- Ícone da Tecnologia padrão do projeto -->
-                            <figure class="project-image">
-                                <img src="./assets/icons/languages/github.svg" alt="Ícone do GitHub" width="100">
-                            </figure>
-
-                            <!-- Conteúdo do Projeto -->
-                            <div class="project-content">
-
-                                <h3>Projeto GitHub</h3>
-                                <p>Projeto desenvolvido no GitHub</p>
-
-                                <!-- Tags do Projeto -->
-                                <div class="project-tags">
-                                    <span class="tag">GitHub</span>
-                                </div>
-
-                                <!-- Links do Projeto -->
-                                <div class="project-buttons">
-                                    <a href="#" target="_blank" class="botao botao-sm">
-                                        GitHub
-                                    </a>
-                                    <a href="#" target="_blank" class="botao-outline botao-sm">
-                                        Deploy
-                                    </a>
-                                </div>
-
-                            </div>
-
-                        </article>
-
-                    </div>
 
                 </div>
 
@@ -223,7 +137,10 @@
 
 
             <!-- Formulário de Contato -->
-            <form id="formulario">
+            <form id="formulario" action  = "https://formsubmit.co/64e0d5ed442a7a50af0a026faa2973d2" method = "POST">
+
+                <input type = "hidden" name="_next" value="http://localhost:5500/success.html">
+                <input type = "hidden" name="_captcha" value="false">
 
                 <label for="nome">Nome:</label>
                 <input id="nome" name="nome" type="text" placeholder="Digite seu nome completo">
@@ -255,6 +172,11 @@
     <footer>
         Desenvolvido por Maryane Praxedes - 2026
     </footer>
+
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
 
 
 </body>
